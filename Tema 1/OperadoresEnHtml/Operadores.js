@@ -16,13 +16,13 @@ document.write("<br/>");
 document.write("El resto de dividir 68 entre 5 es : "+(68%5));
 document.write("<br/>");
 ++operand1;
-document.write("Si sumamos 1 a 67 da : " + operand1);
+document.write("Si sumamos 1 a 68 da : " + operand1);
 document.write("<br/>");
-operand1--;
+--operand1;
 document.write("Si restamos 1 a 69 da : " + operand1);
 document.write("<br/>");
 
-var name = "Juan Gabriel ";
-var surname = "Gomila";
+var name = "Kevin";
+var surname = "Jappert";
 var fullname = name + surname;
-document.write("Mi profesor favorito es : "+fullname);
+document.write("Quien es el capo? : "+fullname);
