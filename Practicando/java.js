@@ -16,23 +16,25 @@ const cuenta = {
     numero: "132131234",
     monto: 100,
 
-    depositar() {
-        this.monto = this.monto + 100
+    depositar(cuanto) {
+        this.monto = this.monto + cuanto
     },
 
-    retirar() {
-        this.monto = this.monto - 100
+    retirar(cuanto) {
+        this.monto = this.monto - cuanto
     }
 }
 
-cuenta.depositar()
-cuenta.depositar()
-cuenta.depositar()
-cuenta.depositar()
+cuenta.depositar(100)
+cuenta.depositar(50)
+cuenta.depositar(10)
+cuenta.depositar(10)
 
 console.log(cuenta)
 
-cuenta.retirar()
-cuenta.retirar()
+cuenta.retirar(10)
+cuenta.retirar(200)
 
 console.log(cuenta)
+
+/////////////////////////////////
