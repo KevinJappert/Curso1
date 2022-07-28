@@ -1,13 +1,4 @@
-const user1 = {
-    name: "Kevin",
-    lastname: "Jappert",
-    age: 30,
 
-    showwFullName() {
-        return this.name + " " + this.lastname
-        }
-    
-}
 ///constructor
 function Person() {
     this.name = ""
@@ -22,9 +13,16 @@ const user2 = new Person()
 user2.name = "JoE"
 user2.lastname = "Mcmillan"
 user2.age = 30
-console.log(user2)
+
 
 const user3 = new Person()
+user3.name = "Kevin"
+user3.lastname = "Jappert"
+user3.age = 30
+
+
 const user4 = new Person()
 const user5 = new Person()
-console.log(user3, user4, user5)
+
+
+console.log(user2,user3, user4, user5)
